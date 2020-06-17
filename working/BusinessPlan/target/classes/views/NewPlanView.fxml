@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.NewPlanViewController">
+   <top>
+      <HBox prefHeight="46.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Place Holder">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="">
+               <VBox.margin>
+                  <Insets left="85.0" />
+               </VBox.margin>
+            </Label>
+            <HBox prefHeight="75.0" prefWidth="300.0" />
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

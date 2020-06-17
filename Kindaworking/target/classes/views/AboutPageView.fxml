@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="652.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="491.0" prefWidth="778.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="57.0" prefWidth="383.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="About" wrappingWidth="631.13671875">
+                     <font>
+                        <Font name="MS Outlook" size="33.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Business Plan System" />
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CSC 360 Project">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Pane prefHeight="122.0" prefWidth="45.0" />
+                        <VBox prefHeight="100.0" prefWidth="529.0">
+                           <children>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description" wrappingWidth="108.251953125">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Text>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="A study of the practices and techniques used in the development of modern software solutions. Topics are chosen from standard APIs, event models, graphical user interfaces, human-computer interaction, multi-threading, debugging methods, exception handling, design patterns and advanced topics in object oriented design. Students should expect to develop at least one portfolio quality piece of software. Prerequisites: CSC 160 and C- or better in CSC 270 or permission of the instructor." wrappingWidth="400.0">
+                                       <HBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
